@@ -50,11 +50,57 @@ a{
 section{
     margin: 0 auto;
     padding: 0;
-    width: 25rem;
+    width: 100%;
     height: auto;
     text-align: center;
+    box-sizing: border-box
+}
+
+p{
+        text-align: center;
     border: box;
-    font-size: 12px;
+    font-size: 25px;
     float:left;
+}
+aside{
+    display: block;
+}
+
+#teacher_pic{
+    border-collapse: separate;
+    margin: 0 auto;
+    padding: 0;
+    float: left;
     
+}
+
+#funding{
+    border-collapse: separate;
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    
+}
+
+#teacher{
+     border-collapse: separate;
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    
+}
+
+#school{
+     border-collapse: separate;
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    
+}
+
+#donate{
+     border-collapse: separate;
+    margin: 0 auto;
+    padding: 0;
+    float: left;
 }
