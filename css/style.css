@@ -1,34 +1,60 @@
 html, body{
     margin: 0;
     padding: 0;
-    max-width: 600px;
-    max-height: 800px;
     font-size: 62.5%;
+    font-style: normal;
     box-sizing: border-box;
-    
+    background-color:#ffffff; 
+
+}
+
+body{
+    display: block;
 }
 
 #main_logo{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: auto;    
-
+        
 }
 
 #nav_under_logo{
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    width: 100%;
-    height: 1rem;
+    overflow: hidden;
+    background: #006699;
     
 }
 
 li{
     float:left;
+    margin: 0.5rem;
+    padding: 0;
+    height: 100%;
+    width: auto;
+    
+}
+
+a{
     margin: 0;
     padding: 0;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
     
+}
+
+section{
+    margin: 0 auto;
+    padding: 0;
+    width: 25rem;
+    height: auto;
+    text-align: center;
+    border: box;
+    font-size: 12px;
+    float:left;
     
 }
