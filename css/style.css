@@ -1,0 +1,34 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+    max-height: 800px;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    
+}
+
+#main_logo{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;    
+
+}
+
+#nav_under_logo{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1rem;
+    
+}
+
+li{
+    float:left;
+    margin: 0;
+    padding: 0;
+    
+    
+}
