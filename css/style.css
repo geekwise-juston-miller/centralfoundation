@@ -52,16 +52,17 @@ section{
     padding: 0;
     width: 100%;
     height: auto;
+    box-sizing: border-box;
     text-align: center;
-    box-sizing: border-box
+    font-size: 25px;
 }
 
 p{
-        text-align: center;
-    border: box;
-    font-size: 25px;
-    float:left;
+  width: 35%;
+  float: left;  
+    
 }
+
 aside{
     display: block;
 }
