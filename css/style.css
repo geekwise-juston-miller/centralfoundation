@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    width: 100%;
     font-size: 62.5%;
     font-style: normal;
     box-sizing: border-box;
@@ -20,9 +21,11 @@ body{
 }
 
 #nav_under_logo{
+    
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
+    width: 100%;
     overflow: hidden;
     background: #006699;
     
@@ -30,10 +33,10 @@ body{
 
 li{
     float:left;
-    margin: 0.5rem;
+    margin: 0.8rem;
     padding: 0;
     height: 100%;
-    width: auto;
+    width: 15rem;
     
 }
 
@@ -53,24 +56,38 @@ section{
     width: 100%;
     height: auto;
     box-sizing: border-box;
-    text-align: center;
-    font-size: 25px;
+    font-size: 22px;
+    
 }
 
 p{
-  width: 35%;
-  float: left;  
+    width: 35%;
+    float: left;
+    text-align: center;
     
 }
 
 aside{
     display: block;
+
 }
 
 #teacher_pic{
     border-collapse: separate;
     margin: 0 auto;
     padding: 0;
+    float: left;
+    width: 270px;
+    height: 270px;
+    
+}
+
+div{
+    margin: 0 auto;
+    padding: 0;
+    width: 270px;
+    height: 270px;
+    display: block;
     float: left;
     
 }
@@ -84,15 +101,15 @@ aside{
 }
 
 #teacher{
-     border-collapse: separate;
+    border-collapse: separate;
     margin: 0 auto;
     padding: 0;
     float: left;
-    
+       
 }
 
 #school{
-     border-collapse: separate;
+    border-collapse: separate;
     margin: 0 auto;
     padding: 0;
     float: left;
@@ -100,7 +117,7 @@ aside{
 }
 
 #donate{
-     border-collapse: separate;
+    border-collapse: separate;
     margin: 0 auto;
     padding: 0;
     float: left;
