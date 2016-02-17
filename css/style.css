@@ -1,27 +1,29 @@
 html, body{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     width: 100%;
+    height: auto;
     font-size: 62.5%;
     font-style: normal;
-    box-sizing: border-box;
-    background-color:#ffffff; 
+    background-color: #71266E; 
 
 }
 
 body{
-    display: block;
-}
-
-#main_logo{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-        
-}
-
-#nav_under_logo{
+    width: auto;
+    background-color: red;
     
+}
+
+header{
+    margin: 0 auto;
+    width: 100%;
+    background-color: chartreuse;
+    text-align: center;
+    
+}
+
+#nav_under_logo{    
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
@@ -32,18 +34,18 @@ body{
 }
 
 li{
+    text-align: center;
     float:left;
     margin: 0.8rem;
     padding: 0;
-    height: 100%;
+    height: calc(100%)7;
     width: 15rem;
-    
+    border-collapse: collapse;
 }
 
 a{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    text-align: center;
     font-size: 2rem;
     color: white;
     text-decoration: none;
@@ -54,10 +56,10 @@ section{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: auto;
+    height: 100px;
     box-sizing: border-box;
     font-size: 22px;
-    
+  
 }
 
 p{
@@ -69,7 +71,8 @@ p{
 
 aside{
     display: block;
-
+    width: 100%;
+     
 }
 
 #teacher_pic{
@@ -97,7 +100,7 @@ div{
     margin: 0 auto;
     padding: 0;
     float: left;
-    
+  
 }
 
 #teacher{
@@ -105,7 +108,7 @@ div{
     margin: 0 auto;
     padding: 0;
     float: left;
-       
+    
 }
 
 #school{
@@ -121,4 +124,5 @@ div{
     margin: 0 auto;
     padding: 0;
     float: left;
+    
 }
